@@ -4,14 +4,14 @@ var jerry, jerryewalking, jerrystanding, jerryresting;
 
 function preload() {
     
-  tomresting = loadAnimation("images/tomOne.png");
-  tomwalking = loadAnimation("images/tomTwo.png","images/tomthree.png");
-  tomstanding = loadAnimation("images/tomFour.png");
-  gardenImg = loadImage("images/garden.png");
+  tomresting = loadAnimation("tomOne.png");
+  tomwalking = loadAnimation("tomTwo.png","images/tomthree.png");
+  tomstanding = loadAnimation("tomFour.png");
+  gardenImg = loadImage("garden.png");
 
-  jerryresting = loadAnimation("images/jerryOne.png");
-  jerryewalking = loadAnimation("images/jerryTwo.png","images/jerryThree.png");
-  jerrystanding = loadAnimation("images/jerryFour.png")
+  jerryresting = loadAnimation("jerryOne.png");
+  jerryewalking = loadAnimation("jerryTwo.png","jerryThree.png");
+  jerrystanding = loadAnimation("jerryFour.png")
 
 }
 
